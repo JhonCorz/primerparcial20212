@@ -10,4 +10,4 @@ El sitio se encuentra publicado en el enlace: https://carlosreneas.github.io/pri
 
 **Link de la pagina:** https://jhoncorz.github.io/primerparcial20212/ 🚀
 
-_Se realizo el diseño de la pagina web con CSS drid_
+_Se realizo el diseño de la pagina web con CSS grid_
