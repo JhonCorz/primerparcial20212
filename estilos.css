@@ -1,0 +1,292 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+
+	background: #E9ECF4;
+	color: #000;
+	font-family: 'Roboto',sans-serif;
+}
+
+.contenedor{
+	background: #fff;
+			padding: 20px;
+	width: 90%;
+	max-width: 2000px;
+	margin: 65px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(3, auto);
+}
+
+.fotoBanco{
+
+	display:block;
+margin:auto;
+grid-column: 1 ;
+grid-row: 1;
+
+	display: flex;
+		align-items: center;
+	justify-content: center;
+}
+
+.contenedor p{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+}
+
+.iniciar{
+background:  #85c1e9 ;
+	display:block;
+margin:auto;
+display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25%;
+
+}
+
+a{
+text-decoration:none 	
+}
+
+.valo{
+	background: #fff;
+			padding: 20px;
+	width: 90%;
+	max-width: 2000px;
+	margin: 65px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(5, auto);
+
+
+}
+
+.valo .fotoBanco {
+grid-column: 1 ;
+
+}
+
+.valo p{
+
+grid-column: 2 / -1 ;
+grid-row: 1;
+
+isplay:block;
+margin:auto;
+display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25%;
+
+}
+
+.valo .a20{
+	background:  #85c1e9 ;
+grid-column: 1 / 2 ;
+grid-row: 2;
+
+display:block;
+margin:auto;
+display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25%;
+}
+
+.valo .a120{
+	background:  #85c1e9 ;
+grid-column: 2 / -1 ;
+grid-row: 2;
+
+display:block;
+margin:auto;
+display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25%;
+}
+
+.valo .a50{
+grid-column: 1 / 2 ;
+grid-row: 3;
+
+display:block;
+margin:auto;
+display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25%;
+}
+
+.valo .a250{
+	background:  #85c1e9 ;
+grid-column: 2 / -1 ;
+grid-row: 3;
+
+display:block;
+margin:auto;
+display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25%;
+}
+
+.valo .a80{
+	background:  #85c1e9 ;
+grid-column: 1 / 2 ;
+grid-row: 4;
+
+display:block;
+margin:auto;
+display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25%;
+}
+
+.valo .a400{
+	background:  #85c1e9 ;
+grid-column: 2 / -1 ;
+grid-row: 4;
+
+display:block;
+margin:auto;
+display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25%;
+}
+
+.valo .cancelar{
+	
+grid-column: 1 / 2 ;
+grid-row: 5;
+
+display:block;
+margin:auto;
+display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25%;
+}
+
+.valo .otro{
+
+grid-column: 2 / -1 ;
+grid-row: 5;
+
+display:block;
+margin:auto;
+display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25%;
+}
+
+.conte{
+	background: #fff;
+			padding: 20px;
+	width: 90%;
+	max-width: 2000px;
+	margin: 65px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(4, auto);
+}
+
+.conte .fotoBanco{
+grid-column: 1 ;
+
+
+}
+
+.conte p{
+
+grid-column: 2 / -1 ;
+grid-row: 1;
+
+display:block;
+margin:auto;
+display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25%;
+}
+
+.conte .retiro{
+	background:  #85c1e9 ;
+grid-column: 1 / 2 ;
+grid-row: 2;	
+
+
+	display:block;
+margin:auto;
+display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25%;
+}
+
+.conte .clave{
+	background:  #85c1e9 ;
+grid-column: 2 / -1 ;
+grid-row: 2;
+
+display:block;
+margin:auto;
+display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25%;	
+}
+
+.conte .saldo{
+	background:  #85c1e9 ;
+grid-column: 1 / 2 ;
+grid-row: 3;
+
+display:block;
+margin:auto;
+display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25%;	
+}
+
+.conte .otros{
+	background:  #85c1e9 ;
+grid-column: 2 / -1 ;
+grid-row: 3;
+display:block;
+margin:auto;
+display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25%;	
+}
+
+.conte .cancelar{
+	background:  #85c1e9 ;
+grid-column: 2 / -1 ;
+grid-row: 4;	
+
+display:block;
+margin:auto;
+display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25%;
+}
+
